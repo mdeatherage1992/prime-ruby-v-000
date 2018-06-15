@@ -1,5 +1,5 @@
 def prime?(number)
- i = 2
+ i = 3
  while i < number
    if number % i == 0
      return false
