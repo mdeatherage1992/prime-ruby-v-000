@@ -4,7 +4,8 @@ def prime?(num)
       return false
   elsif num.abs % counter == 0 && num.abs!=counter
       return false
-  else
-      return true
   end
+counter += 1
+end
+return true
 end
