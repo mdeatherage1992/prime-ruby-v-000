@@ -1,10 +1,9 @@
 def prime?(number)
-i = nil
-while i < number && i != 1
-  if number % i == 0
-    return false
+  if num.abs <2
+      return false
+  elsif num.abs % counter == 0 && num.abs!=counter
+      return false
   else
-    return true
+      return true
   end
-end
 end
